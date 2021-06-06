@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kepengurusans",
+  "info": {
+    "name": "kepengurusan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "angkatan": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "jabatan": {
+      "via": "kepengurusans",
+      "model": "jabatan"
+    },
+    "status": {
+      "via": "kepengurusan",
+      "model": "status"
+    }
+  }
+}

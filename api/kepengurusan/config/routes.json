@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kepengurusans",
+      "handler": "kepengurusan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kepengurusans/count",
+      "handler": "kepengurusan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kepengurusans/:id",
+      "handler": "kepengurusan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kepengurusans",
+      "handler": "kepengurusan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kepengurusans/:id",
+      "handler": "kepengurusan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kepengurusans/:id",
+      "handler": "kepengurusan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

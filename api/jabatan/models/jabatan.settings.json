@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jabatans",
+  "info": {
+    "name": "jabatan"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jabatan": {
+      "type": "string"
+    },
+    "kepengurusans": {
+      "collection": "kepengurusan",
+      "via": "jabatan"
+    }
+  }
+}
