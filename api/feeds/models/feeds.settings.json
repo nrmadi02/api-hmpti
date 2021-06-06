@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "feeds",
   "info": {
-    "name": "feeds"
+    "name": "feeds",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,17 +15,8 @@
     "url": {
       "type": "text"
     },
-    "foto": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "sumber": {
+      "type": "text"
     }
   }
 }
