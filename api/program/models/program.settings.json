@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "name": "program"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "divisi": {
+      "type": "string"
+    },
+    "program": {
+      "type": "richtext"
+    }
+  }
+}
