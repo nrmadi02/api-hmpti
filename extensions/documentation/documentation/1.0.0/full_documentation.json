@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "06/07/2021 5:52:53 PM"
+    "x-generation-date": "06/10/2021 8:41:19 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5002,8 +5002,11 @@
               "status": {
                 "type": "string"
               },
-              "kepengurusan": {
-                "type": "string"
+              "kepengurusans": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               },
               "published_at": {
                 "type": "string"
@@ -5102,37 +5105,40 @@
           "status": {
             "type": "string"
           },
-          "kepengurusan": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "nama": {
-                "type": "string"
-              },
-              "angkatan": {
-                "type": "string"
-              },
-              "url": {
-                "type": "string"
-              },
-              "jabatan": {
-                "type": "string"
-              },
-              "status": {
-                "type": "string"
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
+          "kepengurusans": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "nama": {
+                  "type": "string"
+                },
+                "angkatan": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "jabatan": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5147,8 +5153,11 @@
           "status": {
             "type": "string"
           },
-          "kepengurusan": {
-            "type": "string"
+          "kepengurusans": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "published_at": {
             "type": "string",

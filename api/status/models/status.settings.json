@@ -17,7 +17,7 @@
     },
     "kepengurusans": {
       "collection": "kepengurusan",
-      "via": "statuses",
+      "via": "status",
       "dominant": true
     }
   }
