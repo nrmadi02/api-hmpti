@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "statuses",
   "info": {
-    "name": "status"
+    "name": "status",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,9 +15,10 @@
     "status": {
       "type": "string"
     },
-    "kepengurusan": {
-      "model": "kepengurusan",
-      "via": "status"
+    "kepengurusans": {
+      "collection": "kepengurusan",
+      "via": "statuses",
+      "dominant": true
     }
   }
 }

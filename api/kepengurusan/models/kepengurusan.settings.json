@@ -24,9 +24,9 @@
       "via": "kepengurusans",
       "model": "jabatan"
     },
-    "status": {
-      "via": "kepengurusan",
-      "model": "status"
+    "statuses": {
+      "via": "kepengurusans",
+      "collection": "status"
     }
   }
 }
