@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "hmp-ti",
+    "api_key": "679782152993518",
+    "api_secret": "0U9HXpdovaArfcS2f0v71SOZ-KE"
+  }
+}

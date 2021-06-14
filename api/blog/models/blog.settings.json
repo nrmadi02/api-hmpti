@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "subjudul": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "sampul": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "penulis": {
+      "type": "string"
+    },
+    "waktu": {
+      "type": "string"
+    },
+    "tag_posts": {
+      "via": "blogs",
+      "collection": "tag-post"
+    },
+    "tag_utama": {
+      "type": "string"
+    }
+  }
+}
