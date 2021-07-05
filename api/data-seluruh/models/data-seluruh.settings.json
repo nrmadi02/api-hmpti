@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_seluruhs",
+  "info": {
+    "name": "data-seluruh"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kepengurusan": {
+      "type": "string"
+    },
+    "anggota_muda": {
+      "type": "string"
+    },
+    "angkatan": {
+      "type": "string"
+    },
+    "seluruh_anggota": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anggota_mudas",
+  "info": {
+    "name": "anggota-muda"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "angkatan": {
+      "type": "string"
+    }
+  }
+}

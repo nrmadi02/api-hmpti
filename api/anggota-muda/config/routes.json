@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anggota-mudas",
+      "handler": "anggota-muda.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anggota-mudas/count",
+      "handler": "anggota-muda.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anggota-mudas/:id",
+      "handler": "anggota-muda.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anggota-mudas",
+      "handler": "anggota-muda.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anggota-mudas/:id",
+      "handler": "anggota-muda.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anggota-mudas/:id",
+      "handler": "anggota-muda.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

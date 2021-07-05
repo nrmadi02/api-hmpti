@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informasis",
+  "info": {
+    "name": "informasi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "isi": {
+      "type": "richtext"
+    }
+  }
+}

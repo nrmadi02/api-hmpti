@@ -1250,6 +1250,49 @@
                 "type": "string"
               }
             }
+          },
+          "user_profile": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "nama": {
+                "type": "string"
+              },
+              "umur": {
+                "type": "string"
+              },
+              "kota": {
+                "type": "string"
+              },
+              "provinsi": {
+                "type": "string"
+              },
+              "qoutes": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "foto": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              },
+              "published_at": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -1290,6 +1333,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "user_profile": {
             "type": "string"
           },
           "created_by": {

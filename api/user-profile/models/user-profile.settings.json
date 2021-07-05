@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_profiles",
+  "info": {
+    "name": "user-profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "umur": {
+      "type": "string"
+    },
+    "kota": {
+      "type": "string"
+    },
+    "provinsi": {
+      "type": "string"
+    },
+    "qoutes": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "user_profile"
+    }
+  }
+}
