@@ -528,6 +528,12 @@
           "isi": {
             "type": "string"
           },
+          "sampul_video": {
+            "type": "string"
+          },
+          "link_video": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -540,6 +546,12 @@
             "type": "string"
           },
           "isi": {
+            "type": "string"
+          },
+          "sampul_video": {
+            "type": "string"
+          },
+          "link_video": {
             "type": "string"
           },
           "published_at": {
