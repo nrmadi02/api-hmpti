@@ -6,7 +6,7 @@ module.exports = {
       args: "start",
       env: {
         NODE_ENV: "production",
-        DATABASE_HOST: "103.55.37.104", // database endpoint
+        DATABASE_HOST: "127.0.0.1", // database endpoint
         DATABASE_PORT: "5432",
         DATABASE_NAME: "strapi", // DB name
         DATABASE_USERNAME: "hmptiuniska", // your username for psql
